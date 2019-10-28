@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\10054730\\source\\repos\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\10054730\\source\\repos\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\10054730\\source\\repos\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium.csproj",
+        "projectName": "VeeamCareerSearchSelenium",
+        "projectPath": "C:\\Users\\10054730\\source\\repos\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium.csproj",
+        "packagesPath": "C:\\Users\\10054730\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\10054730\\source\\repos\\VeeamCareerSearchSelenium\\VeeamCareerSearchSelenium\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\10054730\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[78.0.3904.7000, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
